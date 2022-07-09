@@ -69,7 +69,7 @@ p {
 }
 
 input {
-  padding: 12px;
+  padding: 12px 32px;
   border: 1px solid var(--primary);
   background: transparent;
   border-radius: 20px 4px;

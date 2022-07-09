@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import '../index.css';
 import '../resources/navbar.css';
 
 export default function Navbar() {
@@ -16,19 +15,17 @@ export default function Navbar() {
         <h1>
           Cryp<span className='primary'>To</span>
         </h1>
+
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <a href='/'>Home</a>
           </li>
-
           <li>
             <a href='/'>Featured</a>
           </li>
-
           <li>
             <a href='/'>Earn</a>
           </li>
-
           <li>
             <a href='/'>Contact</a>
           </li>
