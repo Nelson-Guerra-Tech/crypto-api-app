@@ -10,7 +10,7 @@
   width: 100%;
   padding: 8rem 0;
   background-color: var(--background);
-  clip-path: polygon(0 0, 100% 17%, 100% 100%, 0 84%);
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 87%);
 }
 
 .featured .container {
@@ -69,4 +69,36 @@
   width: 50px;
   margin: auto;
   padding: 0.2rem 0;
+}
+
+.featured .icon {
+  font-size: 36px;
+  margin: auto;
+  padding-top: 6px;
+  justify-content: center;
+  align-items: center;
+}
+
+.featured span {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 940px) {
+  .featured .container {
+    grid-template-columns: 1fr;
+  }
+
+  .featured .left .btn {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .featured .container .right .card {
+    width: 100%;
+  }
+
+  .featured .left .btn {
+    align-self: center;
+  }
 }
