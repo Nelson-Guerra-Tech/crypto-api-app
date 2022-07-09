@@ -18,4 +18,29 @@
 
 .footer .bar {
   width: 30px;
+  border-bottom: 4px solid var(--primary);
+  margin: 1rem 0;
+}
+
+.footer a {
+  font-size: 1rem;
+}
+
+.footer .icon {
+  color: #303030;
+  margin-right: 4px;
+}
+
+.footer h5 {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 940px) {
+  .footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer .col-1 {
+    display: none;
+  }
 }
